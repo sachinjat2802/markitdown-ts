@@ -34,3 +34,9 @@ jobs:
 
       - name: Test
         run: pnpm test
+
+      - name: Install Playwright Browsers
+        run: pnpm --filter nextjs-demo exec playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: pnpm --filter nextjs-demo exec playwright test

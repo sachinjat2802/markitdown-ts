@@ -12,9 +12,12 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true
+    "skipDefaultLibCheck": true,
+    "jsx": "preserve"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "nextjs-demo",
+    "examples"
   ]
 }
